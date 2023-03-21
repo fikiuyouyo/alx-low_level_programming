@@ -2,13 +2,17 @@
 
 /**
  * print_alphabet_x10 - prints alpha 10 times
+ * Return: always 0
  */
 void print_alphabet_x10(void)
 {
-	int ten;
-	char la;
+	int i;
+	char j;
 
-	for (ten = 0; ten <= 'z'; la++)
-		_putchar(la);
-	_putchar('\n');
+	for (i = 1 ; i <= 10 ; i++)
+	{
+		for (i = 'a' ; j <= 'z' ; j++)
+			_putchar(j);
+		_putchar('\n');
+	}
 }
